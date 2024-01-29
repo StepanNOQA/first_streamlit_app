@@ -1,2 +1,2 @@
 import streamlit
-streamlit.title('Snowflake app')
+streamlit.title('Snowflake Data Application Builders Workshop')
