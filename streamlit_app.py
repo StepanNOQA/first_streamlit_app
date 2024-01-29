@@ -1,10 +1,10 @@
-import streamlit
-streamlit.title('Snowflake Data Application Builders Workshop')
+import streamlit as st
 
-streamlit.header('Breakfast Menu')
-streamlit.text('Omega 3 & Blueberry Oatmeal')
-streamlit.text('Kale, Spinach & Rocket Smoothie')
-streamlit.text('Hard-Boiled Free-Range Egg')
-streamlit.text('test')
-
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+def main():
+    st.title('Snowflake Data Application Builders Workshop')
+    st.header('Breakfast Menu')
+    st.write('Omega 3 & Blueberry Oatmeal')
+    st.write('Kale, Spinach & Rocket Smoothie')
+    st.write('Hard-Boiled Free-Range Egg')
+    st.write('test')
+    st.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
